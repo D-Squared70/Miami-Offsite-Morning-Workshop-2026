@@ -99,7 +99,6 @@ h3{font-family:var(--sans);font-weight:300;font-size:24px;line-height:1.5;color:
   <div class="chapter-nav-item" data-chapter="2">3 Valleys</div>
   <div class="chapter-nav-item" data-chapter="3">Meeting Transcripts</div>
   <div class="chapter-nav-item" data-chapter="4">Claude Features</div>
-  <div class="chapter-nav-item" data-chapter="5">Browser vs Desktop</div>
   <div class="chapter-nav-item" data-chapter="6">The Breakout</div>
 </nav>
 <div class="slide-container">
@@ -380,53 +379,6 @@ Take the below prompt I've written and <span class="hl">improve it using those b
     <div class="wk-item step-item"><div class="wk-num">6</div><div class="wk-name">Artifacts</div><div class="wk-desc">The second panel. AI stops talking and starts building.</div></div>
     <div class="wk-item step-item"><div class="wk-num">7</div><div class="wk-name">Data Connectors</div><div class="wk-desc">Connect to systems. Read-only today.</div></div>
     <div class="wk-item step-item"><div class="wk-num">8</div><div class="wk-name">Skills</div><div class="wk-desc">Reusable instructions for styling and specific processes.</div></div>
-  </div>
-</div></div>
-
-<!-- ===== CH 5: BROWSER VS DESKTOP ===== -->
-<!-- Logo placeholders added -->
-<div class="slide" data-chapter="5"><div class="slide-inner">
-  <span class="label fade-up fade-up-d1">The critical distinction</span>
-  <h2 class="fade-up fade-up-d2" style="margin-bottom:32px">Browser vs. <span style="color:var(--accent)">Desktop</span></h2>
-  <div class="fade-up fade-up-d3">
-    <svg viewBox="0 0 920 310" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:920px;">
-      <!-- Browser -->
-      <rect x="20" y="40" width="400" height="210" rx="8" fill="rgba(232,226,216,0.02)" stroke="rgba(232,226,216,0.08)" stroke-width="1.5"/>
-      <!-- Claude logo (cropped to icon) -->
-      <svg x="196" y="254" width="48" height="48" overflow="hidden">
-        <defs><clipPath id="cl1"><rect width="48" height="48" rx="10"/></clipPath></defs>
-        <g clip-path="url(#cl1)"><image href="claude.png" x="-4" y="-4" width="56" height="56"/></g>
-      </svg>
-      <text x="220" y="72" fill="rgba(232,226,216,0.6)" font-family="'Outfit',sans-serif" font-size="16" text-anchor="middle" font-weight="500">Browser</text>
-      <text x="220" y="94" fill="rgba(232,226,216,0.25)" font-family="'JetBrains Mono',monospace" font-size="11" text-anchor="middle">TEXTING A SMART COLLEAGUE</text>
-      <text x="50" y="130" fill="rgba(232,226,216,0.45)" font-family="'Outfit',sans-serif" font-size="15" font-weight="300">→ Send message, get response</text>
-      <text x="50" y="156" fill="rgba(232,226,216,0.45)" font-family="'Outfit',sans-serif" font-size="15" font-weight="300">→ Connect to tools (read-only)</text>
-      <text x="50" y="182" fill="rgba(232,226,216,0.45)" font-family="'Outfit',sans-serif" font-size="15" font-weight="300">→ Pull in information, check calendar</text>
-      <text x="50" y="208" fill="rgba(232,226,216,0.45)" font-family="'Outfit',sans-serif" font-size="15" font-weight="300">→ Build artifacts in-conversation</text>
-      <text x="220" y="236" fill="rgba(232,226,216,0.25)" font-family="'Outfit',sans-serif" font-size="13" text-anchor="middle" font-weight="300">What we'll use today</text>
-
-      <line x1="460" y1="60" x2="460" y2="230" stroke="rgba(232,226,216,0.06)" stroke-width="1" stroke-dasharray="4,4"/>
-
-      <!-- Desktop -->
-      <rect x="500" y="40" width="400" height="210" rx="8" fill="rgba(212,145,94,0.04)" stroke="var(--accent)" stroke-width="1.5"/>
-      <!-- Claude Code logo (full icon, minimal crop) -->
-      <svg x="646" y="254" width="48" height="48" overflow="hidden">
-        <defs><clipPath id="cl2"><rect width="48" height="48" rx="10"/></clipPath></defs>
-        <g clip-path="url(#cl2)"><image href="claudecode.png" x="-2" y="-4" width="52" height="52"/></g>
-      </svg>
-      <!-- Cowork logo (cropped from dark padding) -->
-      <svg x="706" y="254" width="48" height="48" overflow="hidden">
-        <defs><clipPath id="cl3"><rect width="48" height="48" rx="10"/></clipPath></defs>
-        <g clip-path="url(#cl3)"><image href="Cowork.jpg" x="-29" y="-6" width="105" height="60"/></g>
-      </svg>
-      <text x="700" y="72" fill="var(--accent)" font-family="'Outfit',sans-serif" font-size="16" text-anchor="middle" font-weight="500">Desktop</text>
-      <text x="700" y="94" fill="var(--accent)" font-family="'JetBrains Mono',monospace" font-size="11" text-anchor="middle" opacity="0.6">READS AND WRITES TO YOUR SYSTEMS</text>
-      <text x="530" y="130" fill="rgba(232,226,216,0.55)" font-family="'Outfit',sans-serif" font-size="15" font-weight="300">→ Reads and writes files on your machine</text>
-      <text x="530" y="156" fill="rgba(232,226,216,0.55)" font-family="'Outfit',sans-serif" font-size="15" font-weight="300">→ Drafts emails, updates CRM</text>
-      <text x="530" y="182" fill="rgba(232,226,216,0.55)" font-family="'Outfit',sans-serif" font-size="15" font-weight="300">→ Builds custom tools on the fly</text>
-      <text x="530" y="208" fill="rgba(232,226,216,0.55)" font-family="'Outfit',sans-serif" font-size="15" font-weight="300">→ Runs sub-agents in parallel</text>
-      <text x="700" y="236" fill="var(--accent)" font-family="'Outfit',sans-serif" font-size="13" text-anchor="middle" font-weight="400" opacity="0.6">Included in Claude subscription</text>
-    </svg>
   </div>
 </div></div>
 
