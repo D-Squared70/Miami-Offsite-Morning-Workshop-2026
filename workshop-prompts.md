@@ -34,7 +34,6 @@ WHY: Our firm is moving from individual AI adoption to enterprise-level AI integ
 
 HOW:
 - Base everything on the documents and insights I've provided
-- If something isn't covered in the materials, say "not found" rather than guessing
 - Be specific to our team — reference our actual deliverables and bottlenecks by name
 
 [Paste your Phase 1 insights summary here]
@@ -82,5 +81,4 @@ Help me think through:
 
 1. Don't rush Phase 1. The interview is the foundation. Generic strategy = generic interview.
 2. Use new conversations between phases. Fresh context = more room to think.
-3. If output looks generic, your input was generic. Tell AI more about how your team actually works.
-4. Talk to each other. Discuss the AI's questions together. The strategy should represent your collective view.
+3. Talk to each other. Discuss the AI's questions together. The strategy should represent your collective view.
