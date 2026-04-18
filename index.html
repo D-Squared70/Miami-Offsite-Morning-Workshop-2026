@@ -13,6 +13,8 @@
 html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--sans);}
 .dot-grid{position:fixed;inset:0;z-index:0;pointer-events:none;background-image:radial-gradient(circle,var(--grid-color) 1px,transparent 1px);background-size:32px 32px;}
 .slide-counter{position:fixed;top:36px;right:48px;z-index:100;font-family:var(--mono);font-size:14px;font-weight:300;color:var(--text-dim);letter-spacing:0.5px;}
+.new-chat-note{position:absolute;top:36px;left:50%;transform:translateX(-50%);z-index:60;font-family:var(--mono);font-size:10.5px;font-weight:400;letter-spacing:2.5px;text-transform:uppercase;color:rgba(232,226,216,0.55);white-space:nowrap;display:inline-flex;align-items:center;gap:9px;padding:7px 16px;border:1px solid rgba(212,145,94,0.25);border-radius:999px;background:rgba(212,145,94,0.04);}
+.new-chat-note::before{content:"↻";font-size:13px;color:var(--accent);opacity:0.85;letter-spacing:0;}
 .chapter-nav{position:fixed;left:40px;top:50%;transform:translateY(-50%);z-index:100;display:flex;flex-direction:column;}
 .chapter-nav::before{content:'';position:absolute;left:0;top:0;bottom:0;width:1px;background:var(--nav-line);}
 .chapter-nav-item{position:relative;padding:10px 0 10px 20px;cursor:pointer;font-family:var(--mono);font-size:10px;font-weight:300;letter-spacing:1.5px;text-transform:uppercase;color:var(--text-dim);transition:all 0.4s ease;white-space:nowrap;}
@@ -453,7 +455,7 @@ Here some context on my team…
 <span class="swap">[Dictate who your team is, how they fit into the company, current usage and access to AI… Any background you think would be relevant]</span></div>
 </div></div>
 
-<div class="slide" data-chapter="6"><div class="slide-inner">
+<div class="slide" data-chapter="6"><div class="new-chat-note fade-up fade-up-d1">Start a new conversation</div><div class="slide-inner">
   <span class="label fade-up fade-up-d1">Phase 2 — Draft Strategy</span>
   <div class="prompt-block fade-up fade-up-d2" style="font-size:14.5px;line-height:1.8;">
     <span class="prompt-title">Strategy Draft</span>WHAT: Using the attached documents and the team insights summary below, draft our team's <span class="hl">AI strategy and roadmap for 2026</span>.
@@ -469,7 +471,7 @@ HOW:
 </div></div>
 
 <!-- Phase 3 prompt — rewritten for new conversation -->
-<div class="slide" data-chapter="6"><div class="slide-inner">
+<div class="slide" data-chapter="6"><div class="new-chat-note fade-up fade-up-d1">Start a new conversation</div><div class="slide-inner">
   <span class="label fade-up fade-up-d1">Phase 3 — Build a Visual</span>
   <h2 class="fade-up fade-up-d2" style="margin-bottom:24px">Make it <span style="color:var(--accent)">visible</span></h2>
   <div class="prompt-block fade-up fade-up-d3" style="font-size:15.5px;line-height:1.85;">
@@ -482,7 +484,7 @@ It should be easy to digest for people on my team, and easy for me to walk throu
 <span class="hl">Adopt modern design practices as of today's date.</span> Make it clean, professional, and immediately understandable.</div>
 </div></div>
 
-<div class="slide" data-chapter="6"><div class="slide-inner">
+<div class="slide" data-chapter="6"><div class="new-chat-note fade-up fade-up-d1">Start a new conversation</div><div class="slide-inner">
   <span class="label fade-up fade-up-d1">Phase 4 — Communication Plan</span>
   <div class="prompt-block fade-up fade-up-d2" style="font-size:14.5px;line-height:1.8;">
     <span class="prompt-title">Communication & Rollout Plan</span>You are an expert at organizational change management and persuasive communication. I'm a team leader in <span class="swap">(X)</span> group within a private equity firm and I've just drafted an AI strategy for my team.
