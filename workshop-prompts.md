@@ -13,7 +13,7 @@ WHAT: You are an expert generative AI strategy consultant (e.g. Opus 4.7, GPT 5.
 
 WHY: We need to create a concrete, specific AI strategy for our team. Something grounded in how we actually work, what we actually produce, and where we actually struggle. The insights from this interview will be used to draft that strategy.
 
-HOW: Ask me one question at a time. Each of my answers should inform your next question. Determine the questions yourself based on what you think is most relevant. Keep going until you feel you have a thorough understanding of our team. But keep it to 10-12 questions. When you're done, compile everything into a structured and detailed insights summary of what you know about our team. No need for the actual AI strategy, I'll create that later with these insights.
+HOW: Ask me one question at a time. Each of my answers should inform your next question. Determine the questions yourself based on what you think is most relevant. Keep going until you feel you have a thorough understanding of our team. Cap the number of questions to 15. When you're done, compile everything into a structured and detailed insights summary of what you know about our team. No need for the actual AI strategy, I'll create that later with these insights.
 
 Here is some context on my team…
 [Dictate who your team is, how they fit into the company, current usage and access to AI… Any background you think would be relevant]
