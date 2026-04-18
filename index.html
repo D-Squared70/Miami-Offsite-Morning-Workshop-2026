@@ -57,7 +57,8 @@ h3{font-family:var(--sans);font-weight:300;font-size:24px;line-height:1.5;color:
 .model-card .mc-role{font-family:var(--mono);font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--accent);margin-bottom:14px;}
 .model-card .mc-desc{font-family:var(--sans);font-weight:300;font-size:16px;color:var(--text-mid);line-height:1.6;}
 .wk-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;}
-.wk-item{padding:22px 24px;border-radius:8px;border:1px solid rgba(232,226,216,0.05);background:rgba(232,226,216,0.02);}
+.wk-item{padding:22px 24px;border-radius:8px;border:1px solid rgba(232,226,216,0.05);background:rgba(232,226,216,0.02);transition:background 0.4s ease,border-color 0.4s ease,box-shadow 0.4s ease;}
+.wk-grid .wk-item.step-active{background:rgba(212,145,94,0.1);border-color:rgba(212,145,94,0.5);box-shadow:0 0 24px rgba(212,145,94,0.12);}
 .wk-item .wk-num{font-family:var(--serif);font-size:24px;color:var(--accent);margin-bottom:6px;}
 .wk-item .wk-name{font-family:var(--sans);font-weight:500;font-size:17px;margin-bottom:6px;}
 .wk-item .wk-desc{font-family:var(--sans);font-weight:300;font-size:14px;color:var(--text-mid);line-height:1.5;}
@@ -364,20 +365,19 @@ process and then compile it into a comprehensive SOP. <span class="hl">Cap the n
   <span class="label fade-up fade-up-d1">Feature 04 — non-negotiable</span>
   <h2 class="fade-up fade-up-d2" style="margin-bottom:24px">Have AI <span style="color:var(--accent)">improve</span> your prompts</h2>
   <div class="prompt-block fade-up fade-up-d3">
-    <span class="prompt-title">AI-Powered Prompt Improvement</span>Research best practices for prompting <span class="swap">[model name, e.g. Claude Opus 4.6]</span> as of today's date, <span class="swap">[date]</span>. 
+    <span class="prompt-title">AI-Powered Prompt Improvement</span>Research best practices for prompting <span class="swap">[model name, e.g. Claude Opus <s>4.6</s> 4.7]</span> as of today's date, <span class="swap">[date]</span>. 
 Take the below prompt I've written and <span class="hl">improve it using those best practices. Make sure the improved prompt is information-dense.</span>
 
 <span class="swap">[paste your base prompt here]</span></div>
 </div></div>
 
-<div class="slide" data-chapter="4"><div class="slide-inner">
+<div class="slide" data-chapter="4" data-steps="4"><div class="slide-inner">
   <span class="label fade-up fade-up-d1">Worth knowing</span>
-  <div class="wk-grid fade-up fade-up-d2" style="margin-top:8px">
-    <div class="wk-item"><div class="wk-num">5</div><div class="wk-name">Web Search</div><div class="wk-desc">Toggle on for current info.</div></div>
-    <div class="wk-item"><div class="wk-num">6</div><div class="wk-name">Artifacts</div><div class="wk-desc">The second panel. AI stops talking and starts building.</div></div>
-    <div class="wk-item"><div class="wk-num">7</div><div class="wk-name">Data Connectors</div><div class="wk-desc">Connect to systems. Read-only today.</div></div>
-    <div class="wk-item"><div class="wk-num">8</div><div class="wk-name">Skills</div><div class="wk-desc">Reusable instructions for styling and specific processes.</div></div>
-    <div class="wk-item"><div class="wk-num">9</div><div class="wk-name">File Analysis</div><div class="wk-desc">Upload and ask questions about contracts, reports, spreadsheets.</div></div>
+  <div class="wk-grid step-host step-init fade-up fade-up-d2" style="margin-top:8px;grid-template-columns:1fr 1fr;">
+    <div class="wk-item step-item"><div class="wk-num">5</div><div class="wk-name">Web Search</div><div class="wk-desc">Toggle on for current info.</div></div>
+    <div class="wk-item step-item"><div class="wk-num">6</div><div class="wk-name">Artifacts</div><div class="wk-desc">The second panel. AI stops talking and starts building.</div></div>
+    <div class="wk-item step-item"><div class="wk-num">7</div><div class="wk-name">Data Connectors</div><div class="wk-desc">Connect to systems. Read-only today.</div></div>
+    <div class="wk-item step-item"><div class="wk-num">8</div><div class="wk-name">Skills</div><div class="wk-desc">Reusable instructions for styling and specific processes.</div></div>
   </div>
 </div></div>
 
