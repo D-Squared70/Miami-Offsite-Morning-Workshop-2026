@@ -65,7 +65,7 @@ Adopt modern design practices as of today's date. Make it clean, professional, a
 ```
 You are an expert at organizational change management and persuasive communication. I'm a team leader in (X) group within a private equity firm and I've just drafted an AI strategy for my team.
 
-Here is the strategy: [paste strategy or key points]
+Here is the strategy: [attach or paste]
 
 Also, below are some concerns I have about the team's adoption:
 [Dictate your concerns here…]
