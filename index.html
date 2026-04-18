@@ -76,6 +76,9 @@ h3{font-family:var(--sans);font-weight:300;font-size:24px;line-height:1.5;color:
 .bf-phase .bf-time{font-family:var(--mono);font-size:12px;color:var(--text-dim);letter-spacing:0.5px;}
 .bf-phase .bf-tool{font-family:var(--mono);font-size:11px;color:var(--accent);letter-spacing:1px;text-transform:uppercase;margin-top:auto;padding-top:12px;}
 .bf-arrow{display:flex;align-items:center;color:var(--text-dim);font-size:18px;flex-shrink:0;}
+.time-block{display:flex;flex-direction:column;align-items:center;gap:12px;margin-top:16px;}
+.time-block .time-num{font-family:var(--serif);font-size:180px;line-height:0.95;color:var(--accent);letter-spacing:-4px;font-weight:400;}
+.time-block .time-unit{font-family:var(--mono);font-size:13px;letter-spacing:6px;text-transform:uppercase;color:var(--text-mid);font-weight:400;}
 .rules-list{display:flex;flex-direction:column;gap:16px;}
 .rule-item{display:flex;gap:20px;align-items:flex-start;padding:18px 0;border-bottom:1px solid rgba(232,226,216,0.04);transition:all 0.5s ease;}
 .rule-item .rule-num{font-family:var(--serif);font-size:36px;color:var(--accent);min-width:36px;}
@@ -393,6 +396,15 @@ Here some context on my team…
   </div>
 </div></div>
 
+<div class="slide" data-chapter="6"><div class="slide-inner" style="text-align:center">
+  <span class="label fade-up fade-up-d1" style="display:block;text-align:center">Phase 1 — AI Interview</span>
+  <div class="time-block fade-up fade-up-d2">
+    <div class="time-num">25–30</div>
+    <div class="time-unit">Minutes</div>
+  </div>
+  <h3 class="fade-up fade-up-d3" style="margin-top:36px;text-align:center;font-weight:300;">Run your AI interview.</h3>
+</div></div>
+
 <div class="slide" data-chapter="6"><div class="new-chat-note fade-up fade-up-d1">Start a new conversation</div><div class="slide-inner">
   <span class="label fade-up fade-up-d1">Phase 2 — Draft Strategy</span>
   <div class="prompt-block fade-up fade-up-d2" style="font-size:14.5px;line-height:1.8;">
@@ -408,6 +420,15 @@ HOW:
 <span class="swap">[Paste your Phase 1 insights summary here]</span></div>
 </div></div>
 
+<div class="slide" data-chapter="6"><div class="slide-inner" style="text-align:center">
+  <span class="label fade-up fade-up-d1" style="display:block;text-align:center">Phase 2 — Draft Strategy</span>
+  <div class="time-block fade-up fade-up-d2">
+    <div class="time-num">30–35</div>
+    <div class="time-unit">Minutes</div>
+  </div>
+  <h3 class="fade-up fade-up-d3" style="margin-top:36px;text-align:center;font-weight:300;">Draft your team's strategy.</h3>
+</div></div>
+
 <!-- Phase 3 prompt — rewritten for new conversation -->
 <div class="slide" data-chapter="6"><div class="new-chat-note fade-up fade-up-d1">Start a new conversation</div><div class="slide-inner">
   <span class="label fade-up fade-up-d1">Phase 3 — Build a Visual</span>
@@ -420,6 +441,15 @@ Create a visual that you believe <span class="hl">best conveys the core points o
 It should be easy to digest for people on my team, and easy for me to walk through the important pieces of the strategy in a meeting. 
 
 <span class="hl">Adopt modern design practices as of today's date.</span> Make it clean, professional, and immediately understandable.</div>
+</div></div>
+
+<div class="slide" data-chapter="6"><div class="slide-inner" style="text-align:center">
+  <span class="label fade-up fade-up-d1" style="display:block;text-align:center">Phase 3 — Build a Visual</span>
+  <div class="time-block fade-up fade-up-d2">
+    <div class="time-num">15–20</div>
+    <div class="time-unit">Minutes</div>
+  </div>
+  <h3 class="fade-up fade-up-d3" style="margin-top:36px;text-align:center;font-weight:300;">Build the strategy visual.</h3>
 </div></div>
 
 <div class="slide" data-chapter="6"><div class="new-chat-note fade-up fade-up-d1">Start a new conversation</div><div class="slide-inner">
@@ -439,6 +469,15 @@ Help me think through:
 </div></div>
 
 <div class="slide" data-chapter="6"><div class="slide-inner" style="text-align:center">
+  <span class="label fade-up fade-up-d1" style="display:block;text-align:center">Phase 4 — Communication Plan</span>
+  <div class="time-block fade-up fade-up-d2">
+    <div class="time-num">10–15</div>
+    <div class="time-unit">Minutes</div>
+  </div>
+  <h3 class="fade-up fade-up-d3" style="margin-top:36px;text-align:center;font-weight:300;">Plan the rollout.</h3>
+</div></div>
+
+<div class="slide" data-chapter="6"><div class="slide-inner" style="text-align:center">
   <span class="label fade-up fade-up-d1" style="display:block;text-align:center">Your roadmap for the next 90 minutes</span>
   <div class="breakout-flow fade-up fade-up-d2" style="margin-top:24px">
     <div class="bf-phase"><div class="bf-num">1</div><div class="bf-name">AI Interview</div><div class="bf-time">25–30 min</div><div class="bf-tool">ChatGPT / Claude</div></div><div class="bf-arrow">→</div>
@@ -446,11 +485,6 @@ Help me think through:
     <div class="bf-phase"><div class="bf-num">3</div><div class="bf-name">Build Visual</div><div class="bf-time">15–20 min</div><div class="bf-tool">Claude · Artifacts</div></div><div class="bf-arrow">→</div>
     <div class="bf-phase"><div class="bf-num">4</div><div class="bf-name">Rollout Plan</div><div class="bf-time">10–15 min</div><div class="bf-tool">Claude · Opus</div></div>
   </div>
-</div></div>
-
-<div class="slide" data-chapter="6"><div class="slide-inner" style="text-align:center">
-  <h1 class="fade-up fade-up-d2" style="font-size:72px">90 minutes.<br><span class="accent">Let's build.</span></h1>
-  <h3 class="fade-up fade-up-d3" style="margin-top:28px;text-align:center">Share 2–3 highlights — either from your strategy<br>or from what you learned using AI.</h3>
 </div></div>
 
 </div>
