@@ -79,6 +79,5 @@ Help me think through:
 
 ## Ground rules
 
-1. Don't rush Phase 1. The interview is the foundation. Generic strategy = generic interview.
-2. Use new conversations between phases. Fresh context = more room to think.
-3. Talk to each other. Discuss the AI's questions together. The strategy should represent your collective view.
+1. Don't rush Phase 1.
+2. Fresh conversation for each phase.
