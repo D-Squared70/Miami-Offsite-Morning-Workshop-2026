@@ -6,7 +6,7 @@ For each phase of the 90-minute breakout, copy the prompt below and paste it int
 
 ## Phase 1 — AI Interview
 
-**Tool:** ChatGPT / Claude · **Time:** 25–30 min
+**Tool:** ChatGPT / Claude · **Time:** 25 min
 
 ```
 WHAT: You are an expert generative AI strategy consultant (e.g. Opus 4.7, GPT 5.4, Gemini 3.1 pro, etc.) conducting a discovery interview with a team at a Private equity firm. Your job is to understand everything about this team that would be relevant to building their AI strategy and roadmap for 2026.
@@ -23,7 +23,7 @@ Here is some context on my team…
 
 ## Phase 2 — Draft Strategy
 
-**Tool:** Claude · Opus · **Time:** 30–35 min
+**Tool:** Claude · Opus · **Time:** 30 min
 
 > Start this in a new conversation. Paste your Phase 1 insights summary at the bottom.
 
@@ -34,7 +34,7 @@ WHY: Our firm is moving from individual AI adoption to enterprise-level AI integ
 
 HOW:
 - Base everything on the documents and insights I've provided
-- Be specific to our team — reference our actual deliverables and bottlenecks by name
+- Be specific to our team — reference our actual deliverables and bottlenecks
 
 [Paste your Phase 1 insights summary here]
 ```
@@ -43,10 +43,10 @@ HOW:
 
 ## Phase 3 — Build a Visual
 
-**Tool:** Claude · Artifacts · **Time:** 15–20 min
+**Tool:** Claude · Artifacts · **Time:** 15 min
 
 ```
-Here is the AI strategy for my team, either [attached or pasted below].
+Here is the AI strategy for my team, [attached].
 
 Create a visual that you believe best conveys the core points of this strategy and roadmap.
 
@@ -59,7 +59,7 @@ Adopt modern design practices as of today's date. Make it clean, professional, a
 
 ## Phase 4 — Communication Plan
 
-**Tool:** Claude · Opus · **Time:** 10–15 min
+**Tool:** Claude · Opus · **Time:** 12 min
 
 ```
 You are an expert at organizational change management and persuasive communication. I'm a team leader in (X) group within a private equity firm and I've just drafted an AI strategy for my team.
@@ -70,7 +70,7 @@ Also, below are some concerns I have about the team's adoption:
 [Dictate your concerns here…]
 
 Help me think through:
-1. How do I introduce this to my team in a way that gets buy-in rather than resistance? Some people are enthusiastic about AI, others are skeptical or overwhelmed.
+1. How do I introduce this to my team in a way that gets buy-in rather than resistance?
 2. What are the most likely objections I'll hear, and how should I address them?
 3. Draft a short message I could send to my team introducing this — warm, direct, not corporate-speak.
 ```
