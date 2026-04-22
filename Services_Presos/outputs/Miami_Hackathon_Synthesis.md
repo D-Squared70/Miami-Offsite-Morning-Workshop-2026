@@ -19,7 +19,7 @@ Jobs that used to take days or hours now take minutes — and the teams built mo
 | Data Cube Cutting (per cut) | 45 minutes | 30 seconds |
 | LBO Model (early stage) | ~2 hours | 20–30 minutes (75% saved) |
 | Investment Theme Scout | 3–5 hours | ~20 minutes (70–80% saved) |
-| IC Q&A Prep | full day of guessing | 6–12 hours saved |
+| IC Q&A Prep | weekend crunch | IC-ready (6–12 hrs saved) |
 | Management Hiring (time-to-fill) | baseline | **60 days faster (~34%)** |
 | Quarterly Valuation | manual pulls | 2–3 hours saved |
 | Company Meeting Prep | hours of searching | ~20 minutes per use |
@@ -39,6 +39,26 @@ Jobs that used to take days or hours now take minutes — and the teams built mo
 6. **"A full company brief in about twenty minutes."** — Company Meeting Prep team
 7. **"Sixty days faster to fill a role. Thirteen hundred vetted candidates already in."** — Management Hiring team
 8. **"Live valuation view. Always on."** — Quarterly Valuation team
+9. **"From weekend crunch to confident readiness."** — IC Prep team
+10. **"We built an IC Brain. It thinks like the committee."** — IC Prep team
+11. **"Q&A&Q&A. Two steps ahead of every question."** — IC Prep team
+
+---
+
+## Project Spotlight: IC Prep (added late, worth the spotlight)
+
+**The pain.** Every deal team lives it. Friday the IC memo goes in. Saturday and Sunday turn into a crunch to guess what the committee will ask. Sunday night the agenda lands and teams scramble to fill gaps.
+
+**The fix.** A two-track AI workflow:
+
+- **Track 1 — IC Q&A Engine.** A custom Claude Project trained on 15 months of IC agendas (excluding P2Ps and MNPI). It builds a question taxonomy across 14 topic areas — revenue quality, exit returns, unit economics, cash flow, tech risk, governance, valuation, and more. The team calls it the **"IC Brain."** It reads your memo and diligence pack, drafts likely questions, suggested answers, and — here's the trick — the **follow-up** questions too. Q&A&Q&A.
+- **Track 2 — Addendum Creator.** AI spots gaps in the IC document, recommends which extra slides to build, drafts the pages in Permira template, and flags data points that are missing. Deal team reviews, tweaks, done.
+
+**The new weekend.**
+- **Old Friday → Monday:** submit memo → weekend crunch → Sunday scramble
+- **New Friday → Monday:** activate tool → refine judgment calls → arrive IC-ready
+
+**Why it matters for leadership.** This isn't just time saved. It's better quality (best diligence findings surfaced every time), less stress, and time shifted from guessing to answering. Claude Opus 4.7 beat ChatGPT head-to-head. Zero extra cost to run.
 
 ---
 

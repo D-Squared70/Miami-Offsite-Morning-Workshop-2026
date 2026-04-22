@@ -81,7 +81,7 @@ Our biggest speed-up was board materials prep. Two to three days of work now tak
 5. VDR Workflow — 3–5 hrs per first pass
 6. LBO Model — 75% faster
 7. Data Cube Cutting — 45 min → 30 sec
-8. IC Q&A Prep — 6–12 hrs saved
+8. IC Q&A Prep — weekend → IC-ready (two-track AI)
 9. Sector Thematic Research — 6 hrs → 8 min
 10. Quarterly Valuation — 2–3 hrs per round
 11. Board Materials Prep — 2–3 days → 5 min
@@ -152,7 +152,48 @@ Sector thematic research is now on autopilot. Four reports a week, eight minutes
 
 ---
 
-## SLIDE 9 — The Best Quote
+## SLIDE 9 — Project Spotlight: IC Prep (Weekend → IC-Ready)
+
+**On-screen text**
+> **Weekend crunch → IC-Ready.**
+>
+> *Before:* Friday memo. Weekend scramble. Sunday panic.
+> *After:* Friday memo. AI first pass. Refine. Done.
+
+**Layout**
+- Two horizontal timeline bars, stacked
+- Top (gray): Friday → Sat/Sun → Sun PM → Monday AM, with "scramble" icon at the end
+- Bottom (green): Friday → Sat/Sun → Sun PM → Monday AM, with "IC-Ready" checkmark at the end
+- Team name at bottom: *Philip Mueller · Gabriel Adebiyi · Sean Spatz*
+
+**Speaker notes**
+Every deal team knows this weekend. Friday the IC memo goes in. Saturday and Sunday burn on guessing questions. Sunday night the agenda lands and it's a scramble. This team rebuilt that weekend. Now Friday the tool runs a first pass. The weekend is spent on judgment calls, not drafting from scratch. Monday morning the team walks in ready. Less stress. Better coverage.
+
+---
+
+## SLIDE 10 — IC Prep: Two Tracks
+
+**On-screen text**
+> **Two tracks. One weekend saved.**
+>
+> **Track 1 — IC Brain**
+> Drafts questions, answers, and follow-ups.
+>
+> **Track 2 — Addendum Creator**
+> Spots gaps. Builds the extra slides.
+
+**Layout**
+- Two vertical columns, equal width
+- Left column: icon of a chat bubble / brain, "Track 1 — IC Brain" header, 3 bullets
+- Right column: icon of a slide / doc, "Track 2 — Addendum Creator" header, 3 bullets
+- Small footer: *Trained on 15 months of IC agendas · 14 question topics · Claude Opus 4.7*
+
+**Speaker notes**
+Two tracks. Track one is the IC Brain — a Claude project trained on fifteen months of real IC agendas. It knows the shape of the questions the committee actually asks — revenue quality, unit economics, exit returns, governance, and more. It drafts likely questions, answers pulled from the diligence pack, and — here's the clever bit — the follow-up questions too. Q and A and Q and A. Two steps ahead. Track two is the Addendum Creator. It spots gaps in the IC paper, picks which extra slides to build, drafts them in Permira template, and flags missing data. No extra cost. Runs on tools we already pay for.
+
+---
+
+## SLIDE 11 — The Best Quote
 
 **On-screen text**
 > *"This would've saved*
@@ -170,7 +211,7 @@ Pause here. Let it land. Every one of you has had that Christmas break. That's w
 
 ---
 
-## SLIDE 10 — Lesson 1: Claude Was The Engine
+## SLIDE 12 — Lesson 1: Claude Was The Engine
 
 **On-screen text**
 > **10 out of 12 teams chose Claude.**
@@ -185,7 +226,7 @@ Teams tested Claude, ChatGPT, Perplexity, Gemini, Rogo, Hebbia, and others. Clau
 
 ---
 
-## SLIDE 11 — Lesson 2: Build Beat Buy
+## SLIDE 13 — Lesson 2: Build Beat Buy
 
 **On-screen text**
 > **Build > Buy.**
@@ -200,7 +241,7 @@ Teams looked hard at outside vendors. Most found they could build a better fit o
 
 ---
 
-## SLIDE 12 — Lesson 3: Small Steps, Fast Wins
+## SLIDE 14 — Lesson 3: Small Steps, Fast Wins
 
 **On-screen text**
 > **1–2 weeks to MVP.**
@@ -215,7 +256,7 @@ Don't wait for the perfect full product. The Company Meeting Prep team had a liv
 
 ---
 
-## SLIDE 13 — Lesson 4: Prompts Beat Models
+## SLIDE 15 — Lesson 4: Prompts Beat Models
 
 **On-screen text**
 > **The prompt is the product.**
@@ -229,7 +270,7 @@ Teams spent more time fixing prompts than switching models. Every improvement ca
 
 ---
 
-## SLIDE 14 — Lesson 5: Humans Still Matter
+## SLIDE 16 — Lesson 5: Humans Still Matter
 
 **On-screen text**
 > **AI does the first pass.**
@@ -245,7 +286,7 @@ AI is great at the first pass. Not the last mile. Final IC prep, complex LBO mod
 
 ---
 
-## SLIDE 15 — The Real Wall
+## SLIDE 17 — The Real Wall
 
 **On-screen text**
 > **The blocker wasn't the AI.**
@@ -260,7 +301,7 @@ Every team that hit a limit hit the same kind of limit — gated data. LinkedIn 
 
 ---
 
-## SLIDE 16 — For Leadership: Three Things
+## SLIDE 18 — For Leadership: Three Things
 
 **On-screen text**
 > **1. Savings are real.**
@@ -277,7 +318,7 @@ Three asks. One — the time savings are real and they stack across every deal s
 
 ---
 
-## SLIDE 17 — What To Roll Out (Specifics)
+## SLIDE 19 — What To Roll Out (Specifics)
 
 **On-screen text**
 > **Ship these now**
@@ -297,7 +338,7 @@ These six moves come straight from the team recommendations. Each one has a clea
 
 ---
 
-## SLIDE 18 — No New Budget
+## SLIDE 20 — No New Budget
 
 **On-screen text**
 > **Cost to build: team time.**
@@ -312,7 +353,7 @@ Everything sits on top of what we already pay for — Claude, Azure OpenAI, n8n.
 
 ---
 
-## SLIDE 19 — Thank The Teams
+## SLIDE 21 — Thank The Teams
 
 **On-screen text**
 > **12 teams. One room. Thank you.**
@@ -339,7 +380,7 @@ Call out every team by name. The wins on these slides are their wins. Give them 
 
 ---
 
-## SLIDE 20 — Closing
+## SLIDE 22 — Closing
 
 **On-screen text**
 > **Days into minutes.**
@@ -367,7 +408,7 @@ We turned days into minutes. Now let's turn these twelve tools into thirty peopl
 | Data Cube Cutting | 45 min/cut | 30 sec/cut | Keye saved 1–2+ days per cube |
 | LBO Model | ~2 hrs | 20–30 min | 75% saved on early-stage review |
 | Investment Theme Scout | 3–5 hrs | ~20 min | 70–80% saved on first screening |
-| IC Q&A Prep | full day+ | 6–12 hrs saved | Shifts time from guessing to answering |
+| IC Q&A Prep | weekend crunch | IC-ready (6–12 hrs saved) | Two tracks: IC Brain + Addendum Creator. Trained on 15 months of IC agendas across 14 question topics. Claude Opus 4.7 beat ChatGPT. Piloted on Project Strata. |
 | Management Hiring | baseline | 60 days faster | 1,300+ Permira-vetted candidates |
 | Quarterly Valuation | manual | 2–3 hrs saved | Live dashboard + audit trail |
 | Company Meeting Prep | hours of searching | ~20 min | 3.5/5.0 quality score |
